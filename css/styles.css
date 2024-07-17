@@ -388,6 +388,8 @@ nav ol li a {
 /* Dontion block */
 
 #donation {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: var(--color-light-l);
 }
@@ -428,6 +430,8 @@ nav ol li a {
 /* footer block */
 
 #footer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-image: url("../assets/image/footer-bg.png");
     background-repeat: no-repeat;
@@ -471,4 +475,10 @@ nav ol li a {
 #locations {
     width: 302px;
     margin-top: 16px;
+}
+
+#footer-puppy
+{
+    width: 300px;
+    height: 310px;
 }
