@@ -309,6 +309,7 @@ nav ol li a {
     margin-bottom: 30px;
     align-self: center;
 }
+
 .card button p {
     font-weight: 400;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -355,21 +356,20 @@ nav ol li a {
 
 #help-content ul {
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    text-wrap: nowrap;
+    gap: 55px 120px;
     flex-wrap: wrap;
     justify-content: center;
+    list-style-type: none;
 }
 
 #help-content ul li {
     display: flex;
     flex-direction: column;
-    margin: 0 60px 50px 60px;
+    height: 113px;
+    justify-content: space-between;
 }
 
 #help-content li img{
-    margin-bottom: 30px;
     width: 60px;
     height: 60px;
     align-self: center;
