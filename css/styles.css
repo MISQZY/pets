@@ -424,3 +424,51 @@ nav ol li a {
     align-items: center;
     justify-content: center;
 }
+
+/* footer block */
+
+#footer {
+    width: 100%;
+    background-image: url("../assets/image/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 0 40px;
+}
+
+#footer-content h3 
+{
+    color: var(--color-light-xl);
+    margin-top: 40px;
+}
+
+#footer-content h4 
+{
+    color: var(--color-primary);
+    margin-left: 20px;
+}
+
+#footer-content ul {
+    list-style-type: none;
+}
+#footer-content li {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    text-align: left;
+}
+
+#contacts {
+    width: 278px;
+    margin-top: 16px;
+    text-wrap: nowrap;
+}
+
+#locations {
+    width: 302px;
+    margin-top: 16px;
+}
