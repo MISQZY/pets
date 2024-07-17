@@ -3,7 +3,7 @@
     --color-light-l: #F6F6F6;
     --color-light-s: #FAFAFA;
     --color-dark-s: #CDCDCD;
-    --color-dark-m: ;
+    --color-dark-m: #B2B2B2;
     --color-dark-l: #545454;
     --color-dark-xl: #4C4C4C;
     --color-dark-2xl: ;
@@ -64,8 +64,17 @@ h4 {
     line-height: 23px;
     letter-spacing: 0.06em;
     text-align: center;
+    color: var(--color-dark-l);
 }
 
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+    
+}
 
 .paragraph-l {
     font-family: Arial, Helvetica, sans-serif;
@@ -376,3 +385,42 @@ nav ol li a {
     fill: var(--color-primary);
 }
 
+/* Dontion block */
+
+#donation {
+    width: 100%;
+    background-color: var(--color-light-l);
+}
+
+#donation-content {
+    display: flex;
+    width: 915px;
+    margin: 80px 182px 100px 183px;
+}
+
+#donation-content img {
+    align-self: center;
+}
+
+#donation-content .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+#donation-content .content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-dark-m);
+}
+
+#donation-content button {
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: center;
+}
