@@ -1,0 +1,203 @@
+@media (max-width: 768px) {
+    .wrapper {
+        width: 768px;
+    }
+
+    #start-screen {
+        height: 1165px;
+        justify-content: space-between;
+    }
+
+    #start-screen-content {
+        margin: 60px 100px 0px 100px;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    #start-screen-content .content {
+        margin: 0px;
+        width: 460px;
+        height: 322px;
+        margin-bottom: 100px;
+    }
+
+    #start-screen-content .content button {
+        align-self: center;
+    }
+
+    #start-screen-puppy {
+        width: 596px;
+        height: 593px;
+        margin-left: 70px;
+    }
+
+    #about {
+        height: 1048px;
+    }
+    /* About */
+    #about-content {
+        width: 437px;
+        height: 100%;
+        margin: 80px 166px 100px 165px;
+        flex-direction: column-reverse;
+        align-self: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #about-content .content {
+        margin: 0px;
+        width: 430px;
+        height: 380px;
+        justify-content: space-between;
+    }
+
+    #about-content img {
+        display: flex;
+        margin: 0px;
+        align-content: center;
+        width: 300px;
+        height: 408px;
+    }
+
+    /* Pets */
+    /* Help */
+
+    #help-content {
+        display: flex;
+        align-self: center;
+        margin: 80px 0px 100px 0px;
+        width: 630px;
+        height: 599px;
+    }
+
+    #help-content ul {
+        margin: 0px;
+        width: auto;
+        gap: 55px 60px;
+    }
+
+    #help-content ul li {
+        height: 113px;
+        width: 170px;
+    }
+
+    /* donation */
+
+    #donation-content {
+        flex-direction: column-reverse;
+        margin: 80px 0px 100px 0px;
+        align-self: center;
+    }
+
+    #donation-content .content {
+        margin: 0px;
+        width: 380px;
+        height: 282px;
+        align-self: center;
+    }
+
+    #donation-puppy-img{
+        width: 505px;
+        height: 261px;
+        margin-top: 60px;
+    }
+
+    /* footer */
+    #footer {
+        display: block;
+        flex-direction: column;
+        width: 768px;
+    }
+
+    #footer-content {
+        display: block;
+        position: relative;
+        margin: 30px 30px 0 30px;
+    }
+
+    #footer-content li {
+        margin-top: 40px;
+        height: 32px;
+    }
+
+    #contacts {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0px;
+        margin-left: 34px;
+        display: inline-block;
+    }
+    #locations {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0px 34px 0px 40px;
+        display: inline-block;
+    }
+
+    #footer-puppy {
+        margin-top: 65px;
+        left: 50%;
+        margin-top: 329px;
+        transform: translateX(50%);
+    }
+
+    /* modal */
+
+    .modal-window-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 682px;
+        height: 402px;
+        z-index: 2;
+    }
+    
+    .modal-window-wrapper button {
+        align-self: flex-end;
+    }
+    
+    .modal-window {
+        background-color: var(--color-light-s);
+        box-shadow: 0px 2px 35px 14px #0D0D0D0A;
+        width: 630px;
+        height: 350px;
+        display: flex;
+        top: 52px;
+        left: 0;
+        border-radius: 15px;
+    }
+
+    .modal-window .content {
+        margin-top: 10px;
+        margin-right: 9px;
+    }
+
+    .modal-window img {
+        width: 350px;
+        height: 350px;
+        border-radius: 15px;
+    }
+
+    .modal-window h4 {
+        margin-bottom: 20px;
+    }
+
+    .modal-window h5 {
+        font-size: 13px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        line-height: 14.3px;
+        letter-spacing: 0.06em;
+    }
+
+    .modal-window ul {
+        margin-top: 20px;
+    }
+
+    .modal-window li {
+        margin-bottom: 5px;
+    }
+}

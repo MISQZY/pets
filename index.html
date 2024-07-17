@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_768.css">
     <title>Pets Shop</title>
 </head>
 <body>
     <div class="wrapper">
-        <div id="modal">
-            <div class="modal-window-1280">
+        <div id="modal" class="open">
+            <div class="modal-window-wrapper">
                 <button id="modal-close-btn" class="button-close">
                     <img src="assets/icons/icon-close.svg"/>
                 </button>
@@ -54,15 +55,13 @@
                     </p>
                     <button class="button-primary"><a>Make a friend</a></button>
                 </div>
-                <div id="start-screen-puppy">
-                    <img src="assets/image/start-screen-puppy.png"/>
-                </div>
+                    <img  id="start-screen-puppy" src="assets/image/start-screen-puppy.png"/>
             </div>
         </div>
         <div id="about">
             <div id="about-content">
                 <img src="assets/image/about-img.png"/>
-                <div class="content" style="margin-left: 120px;">
+                <div class="content">
                     <h3>About the shelter<br> “Cozy House”</h3>
                     <p class="paragraph-l">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. 
                         The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
@@ -99,51 +98,49 @@
         <div id="help">
             <div id="help-content">
                 <h3>How you can help<br> our shelter</h3>
-                <div class="list">
-                    <ul>
-                        <li>
-                            <img src="assets/icons/icon-pet-food.svg"/>
-                            <h4>Pet food</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-transportation.svg"/>
-                            <h4>Transportation</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-toys.svg"/>
-                            <h4>Toys</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-bowls-and-cups.svg"/>
-                            <h4>Bowls and cups</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-shampoos.svg"/>
-                            <h4>Shampoos</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-vitamins.svg"/>
-                            <h4>Vitamins</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-medicines.svg"/>
-                            <h4>Medicines</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-collars-leashes.svg"/>
-                            <h4>Collars / leashes</h4>
-                        </li>
-                        <li>
-                            <img src="assets/icons/icon-sleeping-area.svg"/>
-                            <h4>Sleeping areas</h4>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <img src="assets/icons/icon-pet-food.svg"/>
+                        <h4>Pet food</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-transportation.svg"/>
+                        <h4>Transportation</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-toys.svg"/>
+                        <h4>Toys</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-bowls-and-cups.svg"/>
+                        <h4>Bowls and cups</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-shampoos.svg"/>
+                        <h4>Shampoos</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-vitamins.svg"/>
+                        <h4>Vitamins</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-medicines.svg"/>
+                        <h4>Medicines</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-collars-leashes.svg"/>
+                        <h4>Collars / leashes</h4>
+                    </li>
+                    <li>
+                        <img src="assets/icons/icon-sleeping-area.svg"/>
+                        <h4>Sleeping areas</h4>
+                    </li>
+                </ul>
             </div>
         </div>
         <div id="donation">
             <div id="donation-content">
-                <img src="assets/image/donation-dog.png"/>
+                <img id="donation-puppy-img" src="assets/image/donation-dog.png"/>
                 <div class="content">
                     <h3>You can also make a donation</h3>
                     <h5>Name of the bank / Type of bank account</h5>
